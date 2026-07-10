@@ -1,0 +1,19 @@
+Project Kickoff Meeting
+
+John:
+Welcome everyone. We need to complete the dashboard before Friday.
+
+Alice:
+I'll finish the backend API before Thursday.
+
+Bob:
+Testing can begin next Monday.
+
+John:
+Let's have another meeting next Wednesday.
+
+Alice:
+I'll also prepare the documentation.
+
+Bob:
+I'll update the testing checklist.

@@ -1,0 +1,13 @@
+Sprint Planning Meeting
+
+Maya:
+We need to finish the login page by Thursday.
+
+Noah:
+I will update the API endpoints and handle validation.
+
+Sophia:
+I will prepare test cases for the new sprint tasks.
+
+Maya:
+Let's review progress in Friday's sync.

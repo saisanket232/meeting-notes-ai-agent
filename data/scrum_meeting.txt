@@ -1,0 +1,13 @@
+Daily Standup Meeting
+
+Anika:
+I finished the report export feature yesterday.
+
+Leo:
+I am testing the notification flow today.
+
+Mina:
+I will fix the login bug before lunch.
+
+Anika:
+Let's share blockers in the afternoon check-in.
