@@ -22,7 +22,7 @@ An AI-powered Meeting Notes Agent that analyzes meeting transcripts and extracts
 
 - Python
 - Streamlit
-- Gemini API
+- Groq API
 - JSON
 
 ## Project Structure
@@ -40,7 +40,7 @@ meeting_agent/
 ├── output/
 ├── screenshots/
 ├── services/
-│   └── gemini_service.py
+│   └── groq_service.py
 ├── streamlit_app.py
 ├── config.py
 ├── prompts.py

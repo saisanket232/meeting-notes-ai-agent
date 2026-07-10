@@ -20,7 +20,7 @@ Upload a meeting transcript and automatically generate:
 - Action Items
 - Downloadable JSON Report
 
-Powered by Gemini API.
+Powered by Groq API.
 """)
 
 st.divider()

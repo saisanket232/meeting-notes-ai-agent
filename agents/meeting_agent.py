@@ -1,4 +1,4 @@
-from services.gemini_service import ask_gemini
+from services.groq_service import ask_groq
 from prompts import MEETING_SYSTEM_PROMPT
 
 
@@ -12,4 +12,4 @@ Meeting Transcript:
 {transcript}
 """
 
-    return ask_gemini(prompt)
+    return ask_groq(prompt)
