@@ -1,6 +1,10 @@
 # AI Meeting Notes Agent
 
+## About
+
 AI Meeting Notes Agent is a Streamlit app that turns a meeting transcript into a clean summary, key decisions, action items, and a downloadable JSON report.
+
+It is designed to help you upload a plain-text meeting file, analyze it with Groq, and export structured results you can reuse.
 
 ## Screenshots
 
@@ -11,6 +15,17 @@ AI Meeting Notes Agent is a Streamlit app that turns a meeting transcript into a
 ## App URL
 
 Local URL: [http://localhost:8501](http://localhost:8501)
+
+## Vercel Deployment
+
+This repository now includes a Vercel-compatible FastAPI entrypoint in [app.py](app.py). Vercel can deploy that file directly, while [streamlit_app.py](streamlit_app.py) remains the local Streamlit version.
+
+For Vercel:
+
+1. Add the project to Vercel from GitHub.
+2. Set the environment variable `GROQ_API_KEY` in the Vercel project settings.
+3. Deploy the root `app.py` FastAPI app.
+4. Open the deployed URL and upload a `.txt` transcript to analyze it.
 
 ## How It Works
 
