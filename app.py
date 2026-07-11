@@ -199,7 +199,11 @@ async def analyze(file: UploadFile = File(...)):
         raise HTTPException(status_code=400, detail="Please upload a .txt file.")
 
     transcript = (await file.read()).decode("utf-8")
-    response = analyze_meeting(transcript)
+
+    try:
+        response = analyze_meeting(transcript)
+    except RuntimeError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
 
     try:
         data = json.loads(response)
