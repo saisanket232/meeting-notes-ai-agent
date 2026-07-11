@@ -10,7 +10,10 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("AI Meeting Notes Agent")
+st.markdown(
+    "<h1 style='text-align: center;'>AI Meeting Notes Agent</h1>",
+    unsafe_allow_html=True
+)
 
 st.markdown("""
 Upload a meeting transcript and automatically generate:
@@ -25,18 +28,30 @@ Powered by Groq API.
 
 st.divider()
 
-col1, col2 = st.columns(2)
+left_spacer, center_col, right_spacer = st.columns([1, 2, 1])
 
-with col1:
+with center_col:
+    st.markdown(
+        "<h4 style='text-align: center;'>Upload Meeting Transcript</h4>",
+        unsafe_allow_html=True
+    )
+
     uploaded_file = st.file_uploader(
         "Upload Meeting Transcript",
-        type=["txt"]
+        type=["txt"],
+        label_visibility="collapsed"
     )
 
-with col2:
     st.info(
-        "Upload a .txt transcript to generate a summary, key decisions, action items, and a downloadable JSON report."
+        "Upload a .txt transcript to generate a summary, key decisions, action items, and a downloadable JSON report.",
+        icon="ℹ️"
     )
+
+with left_spacer:
+    st.empty()
+
+with right_spacer:
+    st.empty()
 
 if uploaded_file:
 
