@@ -4,7 +4,7 @@ AI Meeting Notes Agent is a Streamlit app that turns a meeting transcript into a
 
 ## Screenshots
 
-![AI Meeting Notes Agent home screen](screenshots/home_page.png)
+![AI Meeting Notes Agent home screen](screenshots/uploaded_transcript.png)
 
 ![AI Meeting Notes Agent results screen](screenshots/results_page.png)
 
