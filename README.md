@@ -2,6 +2,8 @@
 
 > Turn any plain-text meeting transcript into a clean summary, key decisions, and action items — powered by [Groq](https://groq.com/).
 
+🚀 **Live Demo:** [meeting-notes-ai-agent.vercel.app](https://meeting-notes-ai-agent.vercel.app)
+
 ---
 
 ## Screenshots
@@ -176,6 +178,8 @@ Open [http://localhost:8000](http://localhost:8000) in your browser.
 ---
 
 ## Vercel Deployment
+
+🌐 **Live URL:** [meeting-notes-ai-agent.vercel.app](https://meeting-notes-ai-agent.vercel.app)
 
 The `app.py` FastAPI app is the Vercel entrypoint.
 
